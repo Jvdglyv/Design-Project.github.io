@@ -1,0 +1,83 @@
+Text Book
+· Bitcoin and Cryptocurrency Technologies: A Comprehensive Introduction Hardcover (Free pre-publication draft @ http://bitcoinbook.cs.princeton.edu/)
+· Mastering Bitcoin: Programming the Open Blockchain 2nd Edition
+
+Reference Material
+· Blockchain Princeton : http://bitcoinbook.cs.princeton.edu/
+· Mastering Ethereum, by Andreas M. Antonopoulos, Gavin Wood https://ethereumbook.info/, https://github.com/ethereumbook/ethereumbook/blob/develop/book.asciidoc
+
+1. How Bitcoin Works in 5 minutes
+○ General - https://www.youtube.com/watch?v=t5JGQXCTe3c
+○ Technical - https://www.youtube.com/watch?v=l9jOJk30eQs
+2. Bitcoin Developer Guide
+○ https://bitcoin.org/en/developer-guide#block-chain-overview
+
+------------------------------------------------------------
+
+https://en.wikipedia.org/wiki/Public-key_cryptography
+https://www.kerryveenstra.com/cryptosystem.html
+https://wizardforcel.gitbooks.io/practical-cryptography-for-developers-book/digital-signatures/ecdsa-sign-verify-examples.html
+https://www.bitaddress.org
+https://8gwifi.org/ecsignverify.jsp 
+https://bitref.com/
+● https://www.blockchain.com/
+● www.coinbase.com
+● https://koineks.com/
+● https://www.btcturk.com/
+https://www.movable-type.co.uk/scripts/sha256.html
+https://bitinfocharts.com/bitcoin/
+https://bitcoin.org/en/developer-guide
+https://www.blockchain.com/explorer
+https://andersbrownworth.com/blockchain/
+
+Suggested Readings:
+● Blockchain Demo: https://www.youtube.com/watch?v=_160oMzblY8
+● Princeton Textbook 5.1-5.4 (pg. 131 - 157)
+● Bitcoin Wallets Explained
+http://cryptorials.io/bitcoin-wallets-explained-how-to-choose-the-best-wallet-for-you
+
+---------------------------------------------------------------------------
+
+https://andersbrownworth.com/blockchain/public-private-keys/
+https://www.youtube.com/watch?v=xIDL_akeras
+http://remix.ethereum.org/
+https://coursetro.com/courses/20/Developing-Ethereum-Smart-Contracts-for-Beginners
+https://www.coindesk.com/short-guide-blockchain-consensus-protocols
+CAP Theorem - https://www.youtube.com/watch?v=Jw1iFr4v58M
+https://raiden.network/101.html 
+https://en.bitcoinwiki.org/wiki/Sidechain
+https://programmingblockchain.gitbooks.io/
+https://lightning.network/lightning-network-paper.pdf
+
+What is Segragation Witness
+• https://www.youtube.com/watch?v=f3CFUbeehc8&t=587s&ab_channel=99Bitcoins
+What is transaction malleability?
+● https://www.coindesk.com/bitcoin-bug-guide-transaction-malleability
+Zero Knowledge Proofs
+• https://blog.cryptographyengineering.com/2014/11/27/zero-knowledge-proofs-illustrated-primer/
+
+https://www.youtube.com/watch?v=Jw1iFr4v58M
+https://inst.eecs.berkeley.edu//~cs162/fa12/hand-outs/Original_Byzantine.pdf
+https://cointelegraph.com/news/the-inevitable-failure-of-proof-of
+https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf
+http://thesecretlivesofdata.com/raft/
+http://pmg.csail.mit.edu/papers/osdi99.pdf
+
+● Raft Tutorial
+● http://thesecretlivesofdata.com/raft
+● PBFT
+● https://www.youtube.com/watch?v=IafgKJN3nwU&ab_channel=Blockchaina
+tBerkeleyX
+
+---------------------------------------------------------------------
+
+• https://corporatefinanceinstitute.com/resources/cryptocurrency/stablecoin/
+• https://corporatefinanceinstitute.com/resources/cryptocurrency/cryptocurrency-exchanges/
+• https://www.investopedia.com/terms/s/stablecoin.asp#:~:text=medium%20of%20exchange.-
+,Stablecoins%20may%20be%20pegged%20to%20a%20currency%20like%20the%20U.S.,are%20supposed%
+20to%20control%20supply.
+• https://www.thebalancemoney.com/how-do-stablecoins-work-5295901
+• What are stablecoins, and how do they work?
+• https://www.youtube.com/watch?v=Aqi4qxmFVJU&t=444s&ab_channel=CNBCInternational
+• What are Stablecoins?
+• https://www.youtube.com/watch?v=GsSSLDzKCOE&ab_channel=99Bitcoins
