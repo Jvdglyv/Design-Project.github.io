@@ -1,11 +1,11 @@
-import React from 'react';
+import React  from 'react';
 import './App.css';
-import {NavigationBar} from "./components/NavigationBar";
+import {Main} from "./components/Main";
 
 function App() {
   return (
     <div className="App">
-      <NavigationBar></NavigationBar>
+        <Main></Main>
     </div>
   );
 }
