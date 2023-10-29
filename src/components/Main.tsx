@@ -15,6 +15,10 @@ import {Data2_2} from "../explanations/2_2";
 import {Data2_6} from "../explanations/2_6";
 import {Data3_1} from "../explanations/3_1";
 import {Data3_2} from "../explanations/3_2.";
+import {Data4} from "../explanations/4";
+import {Data5} from "../explanations/5";
+import {Data1_4} from "../explanations/1_4";
+import {Data1_3} from "../explanations/1_3";
 
 export const Main = () => {
     const [selectedText, setSelectedText] = useState<ReactNode>(Data1_1);
@@ -27,7 +31,9 @@ export const Main = () => {
                         <SubMenu label="1. What is Blockchain?">
                             <MenuItem onClick = {() => setSelectedText(Data1_1)}> 1.1 - What is blockchain?</MenuItem>
                             <MenuItem onClick = {() => setSelectedText(Data1_2)}> 1.2 - History of blockchain </MenuItem>
-                            <MenuItem> 1.3 - How does blockchain work? </MenuItem>
+                            <MenuItem onClick = {() => setSelectedText(Data1_3)}> 1.3 - How does blockchain work? </MenuItem>
+                            <MenuItem onClick = {() => setSelectedText(Data1_4)}> 1.4 - Features of blockchain </MenuItem>
+
                         </SubMenu>
                         <SubMenu label="2. Proofs">
                             <MenuItem onClick = {() => setSelectedText(Data2_1)}>2.1 Proof of Work</MenuItem>
@@ -41,8 +47,9 @@ export const Main = () => {
                             <MenuItem onClick = {() => setSelectedText(Data3_1)}>3.1 The Cap Theorem</MenuItem>
                             <MenuItem onClick = {() => setSelectedText(Data3_2)}>3.2 Byzantine Generals Problem</MenuItem>
                         </SubMenu>
-                        
-                        <MenuItem>3. Smart Contracts</MenuItem>
+                        <MenuItem onClick = {() => setSelectedText(Data4)}>4. Smart Contracts</MenuItem>
+                        <MenuItem onClick={() => setSelectedText(Data5)}>5. Private vs. Public Blockchains</MenuItem>
+
                     </Menu>
                 </LeftSide>
                 <RightSide>
