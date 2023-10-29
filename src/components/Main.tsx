@@ -12,6 +12,9 @@ import {Data2_3} from "../explanations/2_3";
 import {Data2_4} from "../explanations/2_4";
 import {Data2_5} from "../explanations/2_5";
 import {Data2_2} from "../explanations/2_2";
+import {Data2_6} from "../explanations/2_6";
+import {Data3_1} from "../explanations/3_1";
+import {Data3_2} from "../explanations/3_2.";
 
 export const Main = () => {
     const [selectedText, setSelectedText] = useState<ReactNode>(Data1_1);
@@ -32,6 +35,11 @@ export const Main = () => {
                             <MenuItem onClick = {() => setSelectedText(Data2_3)}>2.3 Proof of Activity</MenuItem>
                             <MenuItem onClick = {() => setSelectedText(Data2_4)}>2.4 Proof of Burn</MenuItem>
                             <MenuItem onClick = {() => setSelectedText(Data2_5)}>2.5 Proof of Capacity</MenuItem>
+                            <MenuItem onClick = {() => setSelectedText(Data2_6)}>2.6 Proof of Elapsed Time</MenuItem>
+                        </SubMenu>
+                        <SubMenu label="3. Some theorems">
+                            <MenuItem onClick = {() => setSelectedText(Data3_1)}>3.1 The Cap Theorem</MenuItem>
+                            <MenuItem onClick = {() => setSelectedText(Data3_2)}>3.2 Byzantine Generals Problem</MenuItem>
                         </SubMenu>
                         
                         <MenuItem>3. Smart Contracts</MenuItem>
