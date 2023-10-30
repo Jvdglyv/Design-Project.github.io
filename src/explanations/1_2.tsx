@@ -11,8 +11,6 @@ export const Data1_2 = () => {
             <br/>
             <strong>Where to use blockchain technology</strong>
             <p>
-
-
                 Insurance - Coverage Proof – Nationwide insurance Health - MedRec – Patient information share permission
                 Land Registry Voting Donation – BitGive Finance – Bitcoin, Ripple Supply Chain – IBM Blockchain Social
                 Media – Matchpool Ticket Sale – Guts

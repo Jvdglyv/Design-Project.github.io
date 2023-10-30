@@ -3,6 +3,8 @@
 export const Data2_1 = () => {
     return (
         <div>
+            <p>https://komodoplatform.com/en/academy/proof-of-work/</p>
+            <br/>
             <strong> Proof of Work (PoW)</strong>
            
 
