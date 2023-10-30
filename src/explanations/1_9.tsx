@@ -3,17 +3,10 @@
 export const Data1_9 = () => {
     return (
         <div>
-            < a href="https://www.youtube.com/watch?v=f3CFUbeehc8&t=587s&ab_channel=99Bitcoins">https://www.youtube.com/watch?v=f3CFUbeehc8&t=587s&ab_channel=99Bitcoins</a>
+            < a href="https://www.coindesk.com/markets/2014/02/12/what-the-bitcoin-bug-means-a-guide-to-transaction-malleability/">https://www.coindesk.com/markets/2014/02/12/what-the-bitcoin-bug-means-a-guide-to-transaction-malleability/</a>
             <br/>
-            <strong>SEGWIT</strong>
-            <ul>
-                <li>
-                    SEGWIT aims to solve bitcoin scalability problem
-                </li>
-                <li>
-                    more transaction can fit in 1 mb block
-                </li>
-            </ul>
+            <strong>Bitcoin Bug</strong>
+            <p>It's an attack that lets someone change the unique ID of a bitcoin transaction before it is confirmed on the bitcoin network. The change makes it possible for someone to pretend that a transaction didn't happen, if all the right conditions are in place.</p>
         </div>
 
     );

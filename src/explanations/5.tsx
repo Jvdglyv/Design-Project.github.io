@@ -11,6 +11,7 @@ export const Data5 = () => {
                 Decentralization should be applied where it makes sense. Just because it’s a blockchain application doesn’t mean it needs to be 100% decentralized. The goal of any blockchain solution is to deliver what the users of that solution need, and this may or may not include certain levels of decentralization. To better understand decentralized networks, the table below breaks out how decentralized networks compare to the more common centralized and distributed networks.
             </p>
             <strong>Farkların olduğu tablo:</strong>
+            <br/>
             
             <a href="https://aws.amazon.com/tr/blockchain/decentralization-in-blockchain/">https://aws.amazon.com/tr/blockchain/decentralization-in-blockchain/</a>
             

@@ -1,29 +1,36 @@
-﻿import React from "react";
-
-
-export const Data1_7 = () => {
+﻿export const Data1_7 = () => {
     return (
         <div>
-            < a href="https://raiden.network/101.html">https://raiden.network/101.html</a>
+            < a href="https://lightning.network/lightning-network-paper.pdf">https://lightning.network/lightning-network-paper.pdf</a>
             <br/>
-            <strong>The Raiden Network</strong>
+            <strong>Bitcoin Lightning Network</strong>
 
             <p>
-                The Raiden Network is an off-chain scaling solution for performing ERC20-compliant token transfers on
-                the Ethereum blockchain. It is Ethereum's version of Bitcoin's Lightning Network, enabling near-instant,
-                low-fee, scalable, and privacy-preserving payments.
+                The payment network Visa achieved 47,000 peak transactions per second (tps) on its network during the
+                2013 holidays[2], and currently averages hundreds of millions per day. Currently, Bitcoin supports less
+                than 7 transactions per second with a 1 megabyte block limit. If we use an average of 300 bytes per
+                bitcoin transaction and assumed unlimited block sizes, an equivalent capacity to peak Visa transaction
+                volume of 47,000/tps would be nearly 8 gigabytes per Bitcoin block, every ten minutes on average.
+                Continuously, that would be over 400 terabytes of data per year
             </p>
             <p>
-                The Raiden Network allows secure transfers of tokens between participants without the need for global
-                consensus. This is achieved using digitally signed and hash-locked transfers, called balance proofs,
-                fully collateralized by previously setup on-chain deposits. This concept, illustrated in figure 1, is
-                known as payment channel technology. Payment channels allow for practically unlimited, bidirectional
-                transfers between two participants, as long as the net sum of their transfers does not exceed the
-                deposited tokens. These transfers can be performed instantaneously and without any involvement of the
-                actual blockchain itself, except for an initial one-time on-chain creation and an eventual closing of
-                the channel.
+                While it is possible to scale at a small level, it is absolutely not possible
+                to handle a large amount of micropayments on the network or to encompass
+                all global transactions. For bitcoin to succeed, it requires confidence that if
+                it were to become extremely popular, its current advantages stemming from
+                decentralization will continue to exist.
             </p>
-
+            
+            <br/>
+            <strong>A Network of Micropayment Channels Can Solve Scalability</strong>
+            <p>
+                “If a tree falls in the forest and no one is around to hear it, does
+                it make a sound?”
+            </p>
+            <p>
+                The above quote questions the relevance of unobserved events —if nobody hears the tree fall, whether it made a sound or not is of no consequence. Similarly, in the blockchain, if only two participants care about an everyday recurring transaction, it’s not necessary for all other nodes in the bitcoin network to know about that transaction. It is instead preferable to only have the bare minimum of information on the blockchain
+            </p>
+            
 
         </div>
 

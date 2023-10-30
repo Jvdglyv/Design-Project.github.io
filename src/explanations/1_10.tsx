@@ -3,10 +3,17 @@
 export const Data1_10 = () => {
     return (
         <div>
-            < a href="https://www.coindesk.com/markets/2014/02/12/what-the-bitcoin-bug-means-a-guide-to-transaction-malleability/">https://www.coindesk.com/markets/2014/02/12/what-the-bitcoin-bug-means-a-guide-to-transaction-malleability/</a>
+            <strong>Other Blockchain Links</strong>
             <br/>
-            <strong>Bitcoin Bug</strong>
-            <p>It's an attack that lets someone change the unique ID of a bitcoin transaction before it is confirmed on the bitcoin network. The change makes it possible for someone to pretend that a transaction didn't happen, if all the right conditions are in place.</p>
+            <a href="https://developer.bitcoin.org/reference/transactions.html">https://developer.bitcoin.org/reference/transactions.html</a>
+            <br/>
+            <a href="http://cryptorials.io/bitcoin-wallets-explained-how-to-choose-the-best-wallet-for-you/">http://cryptorials.io/bitcoin-wallets-explained-how-to-choose-the-best-wallet-for-you/</a>
+            <br/>
+            <a href="https://www.coindesk.com/markets/2017/03/04/a-short-guide-to-blockchain-consensus-protocols/">https://www.coindesk.com/markets/2017/03/04/a-short-guide-to-blockchain-consensus-protocols/</a>
+            <br/>
+            <a href="https://lightning.network/lightning-network-paper.pdf">https://lightning.network/lightning-network-paper.pdf</a>
+            <br/>
+            <a href="https://corporatefinanceinstitute.com/resources/cryptocurrency/cryptocurrency-exchanges/">https://corporatefinanceinstitute.com/resources/cryptocurrency/cryptocurrency-exchanges/</a>
         </div>
 
     );

@@ -1,12 +1,28 @@
 ﻿import React from "react";
-
 export const Data1_6 = () => {
     return (
         <div>
-            <strong>Blockchain Decentralization</strong>
+            < a href="https://raiden.network/101.html">https://raiden.network/101.html</a>
             <br/>
+            <strong>The Raiden Network</strong>
 
-            <p>A blockchain allows the data in a database to be spread out among several network nodes—computers or devices running software for the blockchain—at various locations. This not only creates redundancy but maintains the fidelity of the data. For example, if someone tries to alter a record at one instance of the database, the other nodes would prevent it from happening. This way, no single node within the network can alter information held within it.</p>
+            <p>
+                The Raiden Network is an off-chain scaling solution for performing ERC20-compliant token transfers on
+                the Ethereum blockchain. It is Ethereum's version of Bitcoin's Lightning Network, enabling near-instant,
+                low-fee, scalable, and privacy-preserving payments.
+            </p>
+            <p>
+                The Raiden Network allows secure transfers of tokens between participants without the need for global
+                consensus. This is achieved using digitally signed and hash-locked transfers, called balance proofs,
+                fully collateralized by previously setup on-chain deposits. This concept, illustrated in figure 1, is
+                known as payment channel technology. Payment channels allow for practically unlimited, bidirectional
+                transfers between two participants, as long as the net sum of their transfers does not exceed the
+                deposited tokens. These transfers can be performed instantaneously and without any involvement of the
+                actual blockchain itself, except for an initial one-time on-chain creation and an eventual closing of
+                the channel.
+            </p>
+
+
         </div>
 
     );
