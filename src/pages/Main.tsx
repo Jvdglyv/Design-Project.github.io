@@ -1,6 +1,6 @@
-import {NavigationBar} from "./NavigationBar";
-import {LeftSide} from "./LeftSide";
-import {RightSide} from "./RightSide";
+import {NavigationBar} from "../components/NavigationBar";
+import {LeftSide} from "../components/LeftSide";
+import {RightSide} from "../components/RightSide";
 import React, {ReactNode, useState} from "react";
 import "./Main.css"
 import {Menu, MenuItem, SubMenu} from "react-pro-sidebar";
