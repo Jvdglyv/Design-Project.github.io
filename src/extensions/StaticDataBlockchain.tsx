@@ -1,31 +1,28 @@
-﻿import {Data1_1} from "../explanations/1_1";
-import {Data1_2} from "../explanations/1_2";
-import {Data1_3} from "../explanations/1_3";
-import {Data1_4} from "../explanations/1_4";
-import {Data1_5} from "../explanations/1_5";
-import {Data1_6} from "../explanations/1_6";
-import {Data1_7} from "../explanations/1_7";
-import {Data1_8} from "../explanations/1_8";
-import {Data1_9} from "../explanations/1_9";
-import {Data1_10} from "../explanations/1_10";
-import {Data2_1} from "../explanations/2_1";
-import {Data2_2} from "../explanations/2_2";
-import {Data2_3} from "../explanations/2_3";
-import {Data2_4} from "../explanations/2_4";
-import {Data2_5} from "../explanations/2_5";
-import {Data3_1} from "../explanations/3_1";
-import {Data3_2} from "../explanations/3_2";
-import {Data3_3} from "../explanations/3_3";
-import {Data4} from "../explanations/4";
-import {Data5} from "../explanations/5";
-import {Data6} from "../explanations/6";
-import {Data7} from "../explanations/7";
-import {Data2_6} from "../explanations/2_6";
-import { Data8_1 } from "../explanations/8_1";
-import { Data8_2 } from "../explanations/8_2";
-import { Data8_3 } from "../explanations/8_3";
+﻿import {Data1_1} from "../explanations/blockchain/1_1";
+import {Data1_2} from "../explanations/blockchain/1_2";
+import {Data1_3} from "../explanations/blockchain/1_3";
+import {Data1_4} from "../explanations/blockchain/1_4";
+import {Data1_5} from "../explanations/blockchain/1_5";
+import {Data1_6} from "../explanations/blockchain/1_6";
+import {Data1_7} from "../explanations/blockchain/1_7";
+import {Data1_8} from "../explanations/blockchain/1_8";
+import {Data1_9} from "../explanations/blockchain/1_9";
+import {Data1_10} from "../explanations/blockchain/1_10";
+import {Data2_1} from "../explanations/blockchain/2_1";
+import {Data2_2} from "../explanations/blockchain/2_2";
+import {Data2_3} from "../explanations/blockchain/2_3";
+import {Data2_4} from "../explanations/blockchain/2_4";
+import {Data2_5} from "../explanations/blockchain/2_5";
+import {Data3_1} from "../explanations/blockchain/3_1";
+import {Data3_2} from "../explanations/blockchain/3_2";
+import {Data3_3} from "../explanations/blockchain/3_3";
+import {Data4} from "../explanations/blockchain/4";
+import {Data5} from "../explanations/blockchain/5";
+import {Data6} from "../explanations/blockchain/6";
+import {Data7} from "../explanations/blockchain/7";
+import {Data2_6} from "../explanations/blockchain/2_6";
 
-export const staticData= 
+export const staticDataBlockchain=
     [
         {
             "title": "What is Blockchain?",
@@ -91,17 +88,5 @@ export const staticData=
                 [
                     {"title": "Stable Coin", "content": Data7}
                 ]
-        },
-        {
-            "title": "Solana Fork",
-            "content":
-                [
-                    {"title": "Fork Generation", "content": Data8_1},
-                    {"title": "Overview", "content": Data8_2},
-                    {"title": "Forking example", "content": Data8_3},
-                    {"title": "Message Flow", "content": Data8_3}
-                ]
-        },
-        
-        
+        }
     ] 

@@ -4,8 +4,8 @@ import {RightSide} from "../components/RightSide";
 import React, {ReactNode, useState} from "react";
 import "./Main.css"
 import {Menu, MenuItem, SubMenu} from "react-pro-sidebar";
-import {staticData} from "../extensions/StaticData";
-import {Data1_1} from "../explanations/1_1";
+import {staticDataBlockchain} from "../extensions/StaticDataBlockchain";
+import {Data1_1} from "../explanations/blockchain/1_1";
 
 //  <MergedContent text={selectedText} onTextChange={setSelectedText}/>
 export const Main = () => {
@@ -17,7 +17,7 @@ export const Main = () => {
                 <LeftSide>
                     <Menu>
                         {
-                            staticData.map((item, i) => (
+                            staticDataBlockchain.map((item, i) => (
                                 item.content.length > 1 ? ( <SubMenu label={i + ". " + item.title}>
                                     {
                                         item.content.map((subItem, j) => (

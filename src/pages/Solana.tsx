@@ -4,12 +4,12 @@ import {RightSide} from "../components/RightSide";
 import React, {ReactNode, useState} from "react";
 import "./Main.css"
 import {Menu, MenuItem, SubMenu} from "react-pro-sidebar";
-import {staticData} from "../extensions/StaticData";
-import {Data1_1} from "../explanations/1_1";
+import {staticDataSolana} from "../extensions/StaticDataSolana";
+import {Data8_1} from "../explanations/solana/8_1";
 
 //  <MergedContent text={selectedText} onTextChange={setSelectedText}/>
 export const Solana = () => {
-    const [selectedText, setSelectedText] = useState<ReactNode>(Data1_1);
+    const [selectedText, setSelectedText] = useState<ReactNode>(Data8_1);
     return (
         <>
             <NavigationBar></NavigationBar>
@@ -17,7 +17,7 @@ export const Solana = () => {
                 <LeftSide>
                     <Menu>
                         {
-                            staticData.map((item, i) => (
+                            staticDataSolana.map((item, i) => (
                                 item.content.length > 1 ? ( <SubMenu label={i + ". " + item.title}>
                                         {
                                             item.content.map((subItem, j) => (
