@@ -21,6 +21,9 @@ import {Data5} from "../explanations/5";
 import {Data6} from "../explanations/6";
 import {Data7} from "../explanations/7";
 import {Data2_6} from "../explanations/2_6";
+import { Data8_1 } from "../explanations/8_1";
+import { Data8_2 } from "../explanations/8_2";
+import { Data8_3 } from "../explanations/8_3";
 
 export const staticData= 
     [
@@ -87,6 +90,16 @@ export const staticData=
             "content":
                 [
                     {"title": "Stable Coin", "content": Data7}
+                ]
+        },
+        {
+            "title": "Solana Fork",
+            "content":
+                [
+                    {"title": "Fork Generation", "content": Data8_1},
+                    {"title": "Overview", "content": Data8_2},
+                    {"title": "Forking example", "content": Data8_3},
+                    {"title": "Message Flow", "content": Data8_3}
                 ]
         },
         
